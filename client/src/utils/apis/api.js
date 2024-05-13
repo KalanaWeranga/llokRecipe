@@ -4,7 +4,7 @@ import { serialize } from 'cookie';
 
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3001', 
+    baseURL: 'http://51.21.92.181:3001', 
 });
 
 export const createUser = async (postData) => {

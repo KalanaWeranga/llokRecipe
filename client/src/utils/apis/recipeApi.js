@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL: 'http://localhost:3001', 
+    baseURL: 'http://51.21.92.181:3001', 
 });
 
 export const getlistByCategory = async (category) => {
